@@ -244,13 +244,13 @@ export function Artwork({
           style={{ animation: "pulse-ring 5s ease-in-out infinite" }}
         />
         <ellipse cx={CX} cy={CY} rx="120" ry="76" strokeWidth="0.8" strokeDasharray="3 7" />
-        {[
+        {([
           [150, 300, 320, 320],
           [850, 300, 680, 320],
           [250, 620, 400, 500],
           [750, 620, 600, 500],
           [500, 128, 500, 214],
-        ].map(([x1, y1, x2, y2], i) => (
+        ] as [number, number, number, number][]).map(([x1, y1, x2, y2], i) => (
           <path
             key={i}
             d={`M ${x1} ${y1} Q ${(x1 + x2) / 2} ${(y1 + y2) / 2 - 40} ${x2} ${y2}`}
