@@ -371,10 +371,10 @@ export function Artwork({
 
         {/* musicians */}
         <g className={hl("drum")}>
-          {[
+          {([
             [364, 250],
             [636, 250],
-          ].map(([x, y], i) => (
+          ] as [number, number][]).map(([x, y], i) => (
             <g key={i}>
               <WarliBody x={x} y={y} s={1.1} arms="carry" />
               <g transform={`translate(${x + (i ? 22 : -22)} ${y - 2})`} strokeWidth="1.1">
