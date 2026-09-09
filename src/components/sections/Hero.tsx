@@ -49,7 +49,18 @@ export function Hero() {
           </p>
 
           <div
-            className="mt-8 max-w-md border-t border-border pt-6 text-[0.95rem] leading-relaxed text-ink-soft"
+            className="mt-4 inline-flex flex-wrap items-center gap-x-2.5 gap-y-1 border border-ink/20 bg-beige/40 px-3.5 py-1.5 text-xs text-ink"
+            style={{ animation: "fade-rise 1.2s ease 5.4s both" }}
+          >
+            <span className="font-semibold">Made by Katherine Tanisha Rozario</span>
+            <span className="text-muted-foreground">·</span>
+            <span className="font-mono text-muted-foreground">RA2411030010206</span>
+            <span className="text-muted-foreground">·</span>
+            <span className="font-mono text-muted-foreground">Sec Z1</span>
+          </div>
+
+          <div
+            className="mt-6 max-w-md border-t border-border pt-6 text-[0.95rem] leading-relaxed text-ink-soft"
             style={{ animation: "fade-rise 1.2s ease 5.6s both" }}
           >
             An interactive exhibition on two Indian regional painting traditions — the geometric

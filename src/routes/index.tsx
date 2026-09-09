@@ -42,9 +42,14 @@ function Index() {
     <div className="min-h-screen bg-canvas text-ink">
       <header className="sticky top-0 z-50 border-b border-ink bg-canvas/95 backdrop-blur">
         <div className="mx-auto flex max-w-[1500px] flex-wrap items-center justify-between gap-3 px-6 py-3 lg:px-12">
-          <a href="#opening" className="label-caps">
-            Rhythm of the Earth
-          </a>
+          <div className="flex flex-wrap items-center gap-3">
+            <a href="#opening" className="label-caps font-semibold">
+              Rhythm of the Earth
+            </a>
+            <span className="hidden sm:inline-block text-[11px] border-l border-ink/30 pl-3 text-muted-foreground font-mono">
+              Katherine Tanisha Rozario · RA2411030010206 · Z1
+            </span>
+          </div>
           <nav aria-label="Exhibition sections">
             <ul className="flex flex-wrap gap-x-5 gap-y-1">
               {nav.map(([label, href]) => (

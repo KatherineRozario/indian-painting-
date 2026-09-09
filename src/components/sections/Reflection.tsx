@@ -144,21 +144,38 @@ export function Reflection() {
             </ul>
           </Reveal>
 
-          <p className="mt-10 max-w-3xl border border-ink p-6 text-sm leading-relaxed">
-            <span className="label-caps">Attribution notice</span>
-            <span className="mt-3 block text-ink-soft">
+          <div className="mt-10 max-w-3xl border border-ink bg-card p-6 text-sm leading-relaxed">
+            <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-border pb-3">
+              <span className="label-caps font-semibold">Author &amp; Attribution Notice</span>
+              <span className="label-caps text-xs text-muted-foreground font-mono">Sec Z1</span>
+            </div>
+            <div className="mt-4 grid gap-2 sm:grid-cols-3 border-b border-border pb-4 text-xs">
+              <div>
+                <span className="text-muted-foreground block">Student Artist</span>
+                <span className="font-semibold text-ink text-sm">Katherine Tanisha Rozario</span>
+              </div>
+              <div>
+                <span className="text-muted-foreground block">Registration No.</span>
+                <span className="font-mono text-ink text-sm">RA2411030010206</span>
+              </div>
+              <div>
+                <span className="text-muted-foreground block">Section / Class</span>
+                <span className="font-mono text-ink text-sm">Z1</span>
+              </div>
+            </div>
+            <span className="mt-4 block text-xs leading-relaxed text-ink-soft">
               Every drawing in this exhibition — the motifs, diagrams and the final composition
-              &quot;Rhythm of the Earth&quot; — is original vector work authored for this
-              assignment and labelled ORIGINAL SYNTHESIS. Institutional collections listed above
+              &quot;Rhythm of the Earth&quot; — is original vector work authored by Katherine Tanisha Rozario
+              for this assignment and labelled ORIGINAL SYNTHESIS. Institutional collections listed above
               were consulted as art-historical reference only; no external image is displayed or
-              claimed as original work. Where an external image is introduced later, it must be
-              labelled REFERENCE IMAGE with its collection credit.
+              claimed as original work.
             </span>
-          </p>
+          </div>
 
-          <p className="mt-16 border-t border-border pt-6 label-caps text-muted-foreground">
-            Regional Art Style Fusion — Warli × Kalamkari — Rhythm of the Earth
-          </p>
+          <div className="mt-16 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-6 label-caps text-xs text-muted-foreground">
+            <span>Regional Art Style Fusion — Warli × Kalamkari — Rhythm of the Earth</span>
+            <span className="font-mono">Made by Katherine Tanisha Rozario · RA2411030010206 · Z1</span>
+          </div>
         </div>
       </section>
     </>

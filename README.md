@@ -1,24 +1,33 @@
-# Pixel Perfect Replication
+# Rhythm of the Earth — A Synthesis of Warli & Kalamkari
 
-Implement exactly the screenshot and nothing else
+### **Made by Katherine Tanisha Rozario**
+- **Registration Number:** RA2411030010206
+- **Section:** Z1
 
-This project was built with [Lovable](https://lovable.dev).
+---
 
-## Build with Lovable
+## Overview
+An interactive digital exhibition exploring two distinct Indian regional painting traditions:
+- **Warli Painting** (Maharashtra) — Geometric, monochromatic ritual tribal art based on the circle, triangle, and square.
+- **Kalamkari Painting** (Andhra Pradesh — Srikalahasti style) — Organic, pen-drawn botanical narrative with natural vegetable dyes.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/152f4631-3858-47c1-88ff-ce7864a2e0de).
+The exhibition merges these vocabularies into an original vector synthesis, featuring:
+1. **Interactive Opening & Animated Reveal**
+2. **Side-by-Side Tradition Comparison & Visual Grammar Matrix**
+3. **Interactive Motif Explorer with Layer Deconstructions**
+4. **Step-by-Step Compositional Process & Structural Grid**
+5. **Interactive Artwork with Layer Toggles & Palette Inspections**
+6. **Scholarly Reflection & Art-Historical References**
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+---
 
-## Development
+## Local Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Ensure you have [Node.js](https://nodejs.org/) installed:
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
+
+The application will be served locally with Vite and TanStack Start.
