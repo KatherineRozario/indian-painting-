@@ -67,7 +67,7 @@ export function Traditions() {
                 <div className="mt-6 flex gap-3">
                   {t.motifs.map((M, i) => (
                     <figure key={i} className="w-28 border border-border bg-card p-2">
-                      <M className="h-24 w-full text-ink" title={t.motifLabels[i]} />
+                      <M className="h-24 w-full text-ink" title={t.motifLabels[i] ?? t.name} />
                       <figcaption className="mt-2 text-center text-[0.65rem] uppercase tracking-widest text-muted-foreground">
                         {t.motifLabels[i]}
                       </figcaption>
